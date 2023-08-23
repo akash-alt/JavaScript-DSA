@@ -2,23 +2,23 @@
 //* Q *\\ Given an object and a filter function, write a function that will go through and filter the object, then return a filtered object
 //* Deep Filter
 
-// const filter = (n) => n >= 0;
-// let inputObj = {
-// 	'a': 1,
-// 	'b': {
-// 		'c': 2,
-// 		'd': -3,
-// 		'e': {
-// 			'f': {
-// 				'g': -4,
-// 			},
-// 		},
-// 		'h': {
-// 			'i': 5,
-// 			'j': 6,
-// 		},
-// 	}
-// }
+ const filter = (n) => n >= 0;
+ let inputObj = {
+ 	'a': 1,
+ 	'b': {
+ 		'c': 2,
+ 		'd': -3,
+ 		'e': {
+ 			'f': {
+ 				'g': -4,
+ 			},
+ 		},
+ 		'h': {
+ 			'i': 5,
+ 			'j': 6,
+ 		},
+ 	}
+ }
 
 // const deepFilter = (inputObject, callbackFilterFn) => {
 
